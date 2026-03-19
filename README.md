@@ -1,11 +1,11 @@
-## OVERVIEW
+# OVERVIEW
 This code demonstrates the use of functions for manipulating variables and performing mathmatical operations.
 
-# Resources
+## Resources
 - MDN Functions (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 - MDN String (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
-## REFLECTION 
+# REFLECTION 
 
 1. I made sure to add meaningful parameters that made sense for what they were representing in the function.
 
