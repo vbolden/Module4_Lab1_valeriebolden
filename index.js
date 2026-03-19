@@ -1,7 +1,7 @@
 // TASK 1
 
 function formatFullName(firstName, lastName) {
-     if (firstName === '') {
+    if (firstName === '') {
         return 'Invalid name input'
     }
 
@@ -16,3 +16,24 @@ function formatFullName(firstName, lastName) {
 }
 
 console.log(formatFullName("john", "smith"))
+
+// TASK 2
+
+function calculateTotalCost(price, quantity, taxRate) {
+    if (!(typeof price === 'number')) {
+        return "Value for price is not a number";
+    }
+
+    if (!(typeof quantity === 'number')) {
+        return "Value for quantity is not a number";
+    }
+
+    if (!(typeof taxRate === 'number')) {
+        return "Value taxRate is not a number";
+    }
+
+    let totalCost = (price * quantity) * (1 + taxRate);
+    return totalCost
+}
+
+console.log(calculateTotalCost(200, 3, 0.09))
