@@ -1,7 +1,7 @@
-##OVERVIEW
+## OVERVIEW
 This code demonstrates the use of functions for manipulating variables and performing mathmatical operations.
 
-#Resources
+# Resources
 - MDN Functions (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 - MDN String (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
