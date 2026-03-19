@@ -53,3 +53,31 @@ function checkEligibility(age, isEmployed) {
 console.log(checkEligibility(19, false))
 
 // TASK 4
+
+function calculateTotalPrice(price, quantity, taxRate, discount) {
+    if (!(typeof price === 'number')) {
+        return "Value for price is not a number";
+    }
+
+    if (!(typeof quantity === 'number')) {
+        return "Value for quantity is not a number";
+    }
+
+    if (!(typeof taxRate === 'number')) {
+        return "Value taxRate is not a number";
+    }
+
+    if (typeof discount === "undefined") {
+        discount = 0;
+    } else {
+        if (!(typeof discount === 'number')) {
+            return "Value taxRate is not a number";
+        }
+    }
+
+    let totalCost = ((price * quantity) - discount) * (1 + taxRate);
+    return totalCost
+}
+
+console.log(calculateTotalPrice(100, 3, 0.07, 20))
+console.log(calculateTotalPrice(200, 4, 0.04))
